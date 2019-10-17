@@ -1,0 +1,272 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Headers/adc10_a.c \
+../Headers/adc12_a.c \
+../Headers/aes.c \
+../Headers/battbak.c \
+../Headers/blink.c \
+../Headers/comp_b.c \
+../Headers/crc.c \
+../Headers/ctsd16.c \
+../Headers/dac12_a.c \
+../Headers/dma.c \
+../Headers/eusci_a_spi.c \
+../Headers/eusci_a_uart.c \
+../Headers/eusci_b_i2c.c \
+../Headers/eusci_b_spi.c \
+../Headers/flashctl.c \
+../Headers/gpio.c \
+../Headers/lcd_b.c \
+../Headers/lcd_c.c \
+../Headers/ldopwr.c \
+../Headers/mpy32.c \
+../Headers/oa.c \
+../Headers/pmap.c \
+../Headers/pmm.c \
+../Headers/ram.c \
+../Headers/ref.c \
+../Headers/rtc_a.c \
+../Headers/rtc_b.c \
+../Headers/rtc_c.c \
+../Headers/sd24_b.c \
+../Headers/sfr.c \
+../Headers/sysctl.c \
+../Headers/tec.c \
+../Headers/timer_a.c \
+../Headers/timer_b.c \
+../Headers/timer_d.c \
+../Headers/tlv.c \
+../Headers/ucs.c \
+../Headers/usci_a_spi.c \
+../Headers/usci_a_uart.c \
+../Headers/usci_b_i2c.c \
+../Headers/usci_b_spi.c \
+../Headers/wdt_a.c 
+
+C_DEPS += \
+./Headers/adc10_a.d \
+./Headers/adc12_a.d \
+./Headers/aes.d \
+./Headers/battbak.d \
+./Headers/blink.d \
+./Headers/comp_b.d \
+./Headers/crc.d \
+./Headers/ctsd16.d \
+./Headers/dac12_a.d \
+./Headers/dma.d \
+./Headers/eusci_a_spi.d \
+./Headers/eusci_a_uart.d \
+./Headers/eusci_b_i2c.d \
+./Headers/eusci_b_spi.d \
+./Headers/flashctl.d \
+./Headers/gpio.d \
+./Headers/lcd_b.d \
+./Headers/lcd_c.d \
+./Headers/ldopwr.d \
+./Headers/mpy32.d \
+./Headers/oa.d \
+./Headers/pmap.d \
+./Headers/pmm.d \
+./Headers/ram.d \
+./Headers/ref.d \
+./Headers/rtc_a.d \
+./Headers/rtc_b.d \
+./Headers/rtc_c.d \
+./Headers/sd24_b.d \
+./Headers/sfr.d \
+./Headers/sysctl.d \
+./Headers/tec.d \
+./Headers/timer_a.d \
+./Headers/timer_b.d \
+./Headers/timer_d.d \
+./Headers/tlv.d \
+./Headers/ucs.d \
+./Headers/usci_a_spi.d \
+./Headers/usci_a_uart.d \
+./Headers/usci_b_i2c.d \
+./Headers/usci_b_spi.d \
+./Headers/wdt_a.d 
+
+OBJS += \
+./Headers/adc10_a.obj \
+./Headers/adc12_a.obj \
+./Headers/aes.obj \
+./Headers/battbak.obj \
+./Headers/blink.obj \
+./Headers/comp_b.obj \
+./Headers/crc.obj \
+./Headers/ctsd16.obj \
+./Headers/dac12_a.obj \
+./Headers/dma.obj \
+./Headers/eusci_a_spi.obj \
+./Headers/eusci_a_uart.obj \
+./Headers/eusci_b_i2c.obj \
+./Headers/eusci_b_spi.obj \
+./Headers/flashctl.obj \
+./Headers/gpio.obj \
+./Headers/lcd_b.obj \
+./Headers/lcd_c.obj \
+./Headers/ldopwr.obj \
+./Headers/mpy32.obj \
+./Headers/oa.obj \
+./Headers/pmap.obj \
+./Headers/pmm.obj \
+./Headers/ram.obj \
+./Headers/ref.obj \
+./Headers/rtc_a.obj \
+./Headers/rtc_b.obj \
+./Headers/rtc_c.obj \
+./Headers/sd24_b.obj \
+./Headers/sfr.obj \
+./Headers/sysctl.obj \
+./Headers/tec.obj \
+./Headers/timer_a.obj \
+./Headers/timer_b.obj \
+./Headers/timer_d.obj \
+./Headers/tlv.obj \
+./Headers/ucs.obj \
+./Headers/usci_a_spi.obj \
+./Headers/usci_a_uart.obj \
+./Headers/usci_b_i2c.obj \
+./Headers/usci_b_spi.obj \
+./Headers/wdt_a.obj 
+
+OBJS__QUOTED += \
+"Headers\adc10_a.obj" \
+"Headers\adc12_a.obj" \
+"Headers\aes.obj" \
+"Headers\battbak.obj" \
+"Headers\blink.obj" \
+"Headers\comp_b.obj" \
+"Headers\crc.obj" \
+"Headers\ctsd16.obj" \
+"Headers\dac12_a.obj" \
+"Headers\dma.obj" \
+"Headers\eusci_a_spi.obj" \
+"Headers\eusci_a_uart.obj" \
+"Headers\eusci_b_i2c.obj" \
+"Headers\eusci_b_spi.obj" \
+"Headers\flashctl.obj" \
+"Headers\gpio.obj" \
+"Headers\lcd_b.obj" \
+"Headers\lcd_c.obj" \
+"Headers\ldopwr.obj" \
+"Headers\mpy32.obj" \
+"Headers\oa.obj" \
+"Headers\pmap.obj" \
+"Headers\pmm.obj" \
+"Headers\ram.obj" \
+"Headers\ref.obj" \
+"Headers\rtc_a.obj" \
+"Headers\rtc_b.obj" \
+"Headers\rtc_c.obj" \
+"Headers\sd24_b.obj" \
+"Headers\sfr.obj" \
+"Headers\sysctl.obj" \
+"Headers\tec.obj" \
+"Headers\timer_a.obj" \
+"Headers\timer_b.obj" \
+"Headers\timer_d.obj" \
+"Headers\tlv.obj" \
+"Headers\ucs.obj" \
+"Headers\usci_a_spi.obj" \
+"Headers\usci_a_uart.obj" \
+"Headers\usci_b_i2c.obj" \
+"Headers\usci_b_spi.obj" \
+"Headers\wdt_a.obj" 
+
+C_DEPS__QUOTED += \
+"Headers\adc10_a.d" \
+"Headers\adc12_a.d" \
+"Headers\aes.d" \
+"Headers\battbak.d" \
+"Headers\blink.d" \
+"Headers\comp_b.d" \
+"Headers\crc.d" \
+"Headers\ctsd16.d" \
+"Headers\dac12_a.d" \
+"Headers\dma.d" \
+"Headers\eusci_a_spi.d" \
+"Headers\eusci_a_uart.d" \
+"Headers\eusci_b_i2c.d" \
+"Headers\eusci_b_spi.d" \
+"Headers\flashctl.d" \
+"Headers\gpio.d" \
+"Headers\lcd_b.d" \
+"Headers\lcd_c.d" \
+"Headers\ldopwr.d" \
+"Headers\mpy32.d" \
+"Headers\oa.d" \
+"Headers\pmap.d" \
+"Headers\pmm.d" \
+"Headers\ram.d" \
+"Headers\ref.d" \
+"Headers\rtc_a.d" \
+"Headers\rtc_b.d" \
+"Headers\rtc_c.d" \
+"Headers\sd24_b.d" \
+"Headers\sfr.d" \
+"Headers\sysctl.d" \
+"Headers\tec.d" \
+"Headers\timer_a.d" \
+"Headers\timer_b.d" \
+"Headers\timer_d.d" \
+"Headers\tlv.d" \
+"Headers\ucs.d" \
+"Headers\usci_a_spi.d" \
+"Headers\usci_a_uart.d" \
+"Headers\usci_b_i2c.d" \
+"Headers\usci_b_spi.d" \
+"Headers\wdt_a.d" 
+
+C_SRCS__QUOTED += \
+"../Headers/adc10_a.c" \
+"../Headers/adc12_a.c" \
+"../Headers/aes.c" \
+"../Headers/battbak.c" \
+"../Headers/blink.c" \
+"../Headers/comp_b.c" \
+"../Headers/crc.c" \
+"../Headers/ctsd16.c" \
+"../Headers/dac12_a.c" \
+"../Headers/dma.c" \
+"../Headers/eusci_a_spi.c" \
+"../Headers/eusci_a_uart.c" \
+"../Headers/eusci_b_i2c.c" \
+"../Headers/eusci_b_spi.c" \
+"../Headers/flashctl.c" \
+"../Headers/gpio.c" \
+"../Headers/lcd_b.c" \
+"../Headers/lcd_c.c" \
+"../Headers/ldopwr.c" \
+"../Headers/mpy32.c" \
+"../Headers/oa.c" \
+"../Headers/pmap.c" \
+"../Headers/pmm.c" \
+"../Headers/ram.c" \
+"../Headers/ref.c" \
+"../Headers/rtc_a.c" \
+"../Headers/rtc_b.c" \
+"../Headers/rtc_c.c" \
+"../Headers/sd24_b.c" \
+"../Headers/sfr.c" \
+"../Headers/sysctl.c" \
+"../Headers/tec.c" \
+"../Headers/timer_a.c" \
+"../Headers/timer_b.c" \
+"../Headers/timer_d.c" \
+"../Headers/tlv.c" \
+"../Headers/ucs.c" \
+"../Headers/usci_a_spi.c" \
+"../Headers/usci_a_uart.c" \
+"../Headers/usci_b_i2c.c" \
+"../Headers/usci_b_spi.c" \
+"../Headers/wdt_a.c" 
+
+
