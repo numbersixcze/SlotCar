@@ -1,1 +1,0 @@
-"./blink.obj" "./timer_d.obj" "../lnk_msp430f5418a.cmd" -llibmath.a -llibc.a 
