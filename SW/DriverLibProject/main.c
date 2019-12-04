@@ -2,8 +2,9 @@
 #include <msp430.h>
 #include "MSP430Interface.h"
 #include <string.h>
+#include <math.h>
 #define TIMER_PERIOD   1000
-#define DUTY_CYCLE     250
+#define DUTY_CYCLE     500
 #define SPICLK         10000
 
 
@@ -36,7 +37,7 @@ void main (void)
 
     WDT_A_hold(WDT_A_BASE);     //Stop WDT
 
-    pwmInit(250, 1000);
+    pwmInit(DUTY_CYCLE, 1000);
 
     ledInit();
 
@@ -78,6 +79,8 @@ void main (void)
     data = data << 8;
     data |= tmpData;*/
     while(spiRead(&data));
+
+    pwmSet(DUTY_CYCLE-map(abs(data),0,32765,0,200));
     IntegertoString(dataS, data);
     strcat(dataS,";\r\n");
     uartWriteS (dataS);

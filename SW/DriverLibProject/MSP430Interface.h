@@ -39,7 +39,7 @@ void uartDisTxInt();
 void uartWriteS (const char * string);
 
 void IntegertoString(char * string, int number);
-
+uint32_t map(uint32_t x, uint32_t in_min, uint32_t in_max, uint32_t out_min, uint32_t out_max);
 
 
 #endif /* MSP430INTERFACE_H_ */
